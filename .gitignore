@@ -1,0 +1,21 @@
+# Объектные файлы и библиотеки
+*.o
+*.a
+
+# Системные файлы и дампы
+core
+core.*
+*.exe
+a.out
+
+# Исполняемые файлы
+src/mutex
+src/mutex_no
+src/mutex_ye
+src/factorial
+src/deadlock
+
+# Отчеты
+~$*.docx
+*.docx
+*.pdf
