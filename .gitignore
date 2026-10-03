@@ -1,14 +1,21 @@
-# Игнорируем объектные файлы в любой папке
+# Объектные файлы и библиотеки
 *.o
+*.a
 
-# Игнорируем бинарные исполняемые файлы в папке src
-src/exec_min_max
-src/parallel_min_max
-src/sequential_min_max
+# Системные файлы и дампы
+core
+core.*
+*.exe
+a.out
 
-# Игнорируем временные файлы Word, начинающиеся с ~$
+# Исполняемые файлы
+src/mutex
+src/mutex_no
+src/mutex_yes
+src/factorial
+src/deadlock
+
+# Отчеты
 ~$*.docx
-
-# Мне захотелось скрыть отчетик)()()()()
 *.docx
 *.pdf
